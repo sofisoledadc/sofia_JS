@@ -13,6 +13,24 @@ function ingresarUsuario(){
     
 }
 
+
+function iniciaQuiz() {
+    let p = prompt([empiezanPreguntas])
+    {
+        
+    }
+
+    preguntasIndex = 0;
+    empiezanPreguntas() 
+
+    preguntasIndex++
+    empiezanPreguntas()
+}
+
+
+/*
+
+
 function rta1(){
     let pregunta1;
 
@@ -69,9 +87,6 @@ function resultado() {
 
 }
 
-
+*/
 ingresarUsuario()
-rta1();
-rta2();
-rta3();
-resultado()
+iniciaQuiz()
